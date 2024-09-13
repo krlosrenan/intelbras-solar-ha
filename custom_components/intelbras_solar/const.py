@@ -6,7 +6,7 @@ CONF_PLANT_ID = "plant_id"
 
 DEFAULT_PLANT_ID = "0"
 
-DEFAULT_NAME = "Growatt"
+DEFAULT_NAME = "Intelbras Solar (Growatt)"
 
 SERVER_URLS = [
     "http://solar-monitoramento.intelbras.com.br/",  # Intelbras
