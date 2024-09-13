@@ -24,7 +24,7 @@ DEPRECATED_URLS = [
 
 DEFAULT_URL = SERVER_URLS[0]
 
-DOMAIN = "growatt_server"
+DOMAIN = "intelbras_server"
 
 PLATFORMS = [Platform.SENSOR]
 

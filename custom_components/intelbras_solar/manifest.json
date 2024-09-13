@@ -1,9 +1,9 @@
 {
-  "domain": "growatt_server",
+  "domain": "intelbras_server",
   "name": "Intelbras Solar (Growatt)",
-  "codeowners": [],
+  "codeowners": ["@krlosrenan"],
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/growatt_server",
+  "documentation": "https://github.com/krlosrenan/intelbras-solar-ha",
   "iot_class": "cloud_polling",
   "loggers": ["growattServer"],
   "requirements": ["growattServer==1.5.0"],
