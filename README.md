@@ -7,7 +7,7 @@ Uma vez integrado, o sensor faz login na conta Intelbras ou Growatt do usuário 
 
 Creditos
 -------
-Esta integração foi baseada na [integração original da Growatt] [original], mantida pela comunidade do home assistant.
+Esta integração foi baseada na [integração original da Growatt], mantida pela comunidade do home assistant.
 
 
-[original] https://www.home-assistant.io/integrations/growatt_server
+[integração original da Growatt]: https://www.home-assistant.io/integrations/growatt_server
