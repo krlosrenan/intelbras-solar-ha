@@ -1,0 +1,450 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Planta já configurada",
+      "no_plants": "Nenhuma planta foi encontrada nesta conta"
+    },
+    "error": {
+      "invalid_auth": "Não foi possível realizar o login"
+    },
+    "step": {
+      "plant": {
+        "data": {
+          "plant_id": "Planta"
+        },
+        "title": "Selecione sua planta"
+      },
+      "user": {
+        "data": {
+          "name": "Nome",
+          "password": "Senha",
+          "username": "Usuário",
+          "url": "URL"
+        },
+        "title": "Insira suas informações do Growatt"
+      }
+    }
+  },
+  "title": "Growatt Server",
+  "entity": {
+    "sensor": {
+      "inverter_energy_today": {
+        "name": "Geração do dia"
+      },
+      "inverter_energy_total": {
+        "name": "Geraçao total"
+      },
+      "inverter_voltage_input_1": {
+        "name": "Tensão da entrada 1"
+      },
+      "inverter_amperage_input_1": {
+        "name": "Amperagem da entrada 1"
+      },
+      "inverter_wattage_input_1": {
+        "name": "Potência da entrada 1"
+      },
+      "inverter_voltage_input_2": {
+        "name": "Tensão da entrada 2"
+      },
+      "inverter_amperage_input_2": {
+        "name": "Amperagem da entrada 2"
+      },
+      "inverter_wattage_input_2": {
+        "name": "Potência da entrada 2"
+      },
+      "inverter_voltage_input_3": {
+        "name": "Tensão da entrada 3"
+      },
+      "inverter_amperage_input_3": {
+        "name": "Amperagem da entrada 3"
+      },
+      "inverter_wattage_input_3": {
+        "name": "Potência da entrada 3"
+      },
+      "inverter_internal_wattage": {
+        "name": "Potência interna"
+      },
+      "inverter_reactive_voltage": {
+        "name": "Tensão reativa"
+      },
+      "inverter_reactive_amperage": {
+        "name": "Amperagem reativa"
+      },
+      "inverter_frequency": {
+        "name": "Frequência AC"
+      },
+      "inverter_current_wattage": {
+        "name": "Potência de saída"
+      },
+      "inverter_current_reactive_wattage": {
+        "name": "Potência reativa"
+      },
+      "inverter_ipm_temperature": {
+        "name": "Temperatura do Gerenciamento Inteligente de Energia"
+      },
+      "inverter_temperature": {
+        "name": "Temperatura do inversor"
+      },
+      "mix_statement_of_charge": {
+        "name": "Declaração de carga"
+      },
+      "mix_battery_charge_today": {
+        "name": "Bateria carregada hoje"
+      },
+      "mix_battery_charge_lifetime": {
+        "name": "Bateria carregada total"
+      },
+      "mix_battery_discharge_today": {
+        "name": "Bateria descarregada hoje"
+      },
+      "mix_battery_discharge_lifetime": {
+        "name": "Bateria descarregada total"
+      },
+      "mix_solar_generation_today": {
+        "name": "Energia gerada hoje"
+      },
+      "mix_solar_generation_lifetime": {
+        "name": "Total de energia gerada"
+      },
+      "mix_battery_discharge_w": {
+        "name": "Descarregamento da bateria W"
+      },
+      "mix_battery_voltage": {
+        "name": "Tensão da bateria"
+      },
+      "mix_pv1_voltage": {
+        "name": "Tensão PV1"
+      },
+      "mix_pv2_voltage": {
+        "name": "Tensão PV2"
+      },
+      "mix_load_consumption_today": {
+        "name": "Consumo de carga hoje"
+      },
+      "mix_load_consumption_lifetime": {
+        "name": "Consumo de carga total"
+      },
+      "mix_export_to_grid_today": {
+        "name": "Exportação para a rede hoje"
+      },
+      "mix_export_to_grid_lifetime": {
+        "name": "Exportação total para a rede"
+      },
+      "mix_battery_charge": {
+        "name": "Carregamento da bateria"
+      },
+      "mix_load_consumption": {
+        "name": "Consumo de carga"
+      },
+      "mix_wattage_pv_1": {
+        "name": "Potência PV1"
+      },
+      "mix_wattage_pv_2": {
+        "name": "Potência PV2"
+      },
+      "mix_wattage_pv_all": {
+        "name": "Potência total PV"
+      },
+      "mix_export_to_grid": {
+        "name": "Exportação para a rede"
+      },
+      "mix_import_from_grid": {
+        "name": "Importação da rede"
+      },
+      "mix_battery_discharge_kw": {
+        "name": "Descarregamento da bateria kW"
+      },
+      "mix_grid_voltage": {
+        "name": "Tensão da rede"
+      },
+      "mix_system_production_today": {
+        "name": "Produção do sistema hoje (autoconsumo + exportação)"
+      },
+      "mix_load_consumption_solar_today": {
+        "name": "Consumo de carga hoje (solar)"
+      },
+      "mix_self_consumption_today": {
+        "name": "Autoconsumo hoje (solar + bateria)"
+      },
+      "mix_load_consumption_battery_today": {
+        "name": "Consumo de carga hoje (bateria)"
+      },
+      "mix_import_from_grid_today": {
+        "name": "Importação da rede hoje (carga)"
+      },
+      "mix_last_update": {
+        "name": "Última atualização de dados"
+      },
+      "mix_import_from_grid_today_combined": {
+        "name": "Importação da rede hoje (carga + carregamento)"
+      },
+      "storage_storage_production_today": {
+        "name": "Produção de armazenamento hoje"
+      },
+      "storage_storage_production_lifetime": {
+        "name": "Produção de armazenamento total"
+      },
+      "storage_grid_discharge_today": {
+        "name": "Descarregamento da rede hoje"
+      },
+      "storage_grid_discharge_lifetime": {
+        "name": "Descarregamento total da rede"
+      },
+      "storage_load_consumption_today": {
+        "name": "Consumo de carga hoje"
+      },
+      "storage_load_consumption_lifetime": {
+        "name": "Consumo de carga total"
+      },
+      "storage_grid_charged_today": {
+        "name": "Carregamento da rede hoje"
+      },
+      "storage_grid_charged_lifetime": {
+        "name": "Carregamento total da rede"
+      },
+      "storage_charge_storage_lifetime": {
+        "name": "Carregamento total armazenado"
+      },
+      "storage_solar_production": {
+        "name": "Produção de energia solar (PV1)"
+      },
+      "storage_solar_production_2": {
+        "name": "Produção de energia solar (PV2)"
+      },
+      "storage_solar_output_today": {
+        "name": "Produção solar hoje"
+      },
+      "storage_solar_output_lifetime": {
+        "name": "Produção solar total"
+      },
+      "storage_battery_percentage": {
+        "name": "Porcentagem da bateria"
+      },
+      "storage_power_flow": {
+        "name": "Fluxo de energia de armazenamento (carregando/descarregando)"
+      },
+      "storage_load_consumption_solar_storage": {
+        "name": "Consumo de carga (Solar + Armazenamento)"
+      },
+      "storage_charge_today": {
+        "name": "Carregamento hoje"
+      },
+      "storage_import_from_grid": {
+        "name": "Importação da rede"
+      },
+      "storage_import_from_grid_today": {
+        "name": "Importação da rede hoje"
+      },
+      "storage_import_from_grid_total": {
+        "name": "Importação total da rede"
+      },
+      "storage_load_consumption": {
+        "name": "Consumo de carga"
+      },
+      "storage_grid_voltage": {
+        "name": "Tensão de entrada AC"
+      },
+      "storage_pv_charging_voltage": {
+        "name": "Tensão de carregamento PV1"
+      },
+      "storage_pv_charging_voltage_2": {
+        "name": "Tensão de carregamento PV2"
+      },
+      "storage_ac_input_frequency_out": {
+        "name": "Frequência de entrada AC"
+      },
+      "storage_output_voltage": {
+        "name": "Tensão de saída"
+      },
+      "storage_ac_output_frequency": {
+        "name": "Frequência de saída AC"
+      },
+      "storage_current_pv": {
+        "name": "Corrente de carga solar"
+      },
+      "storage_current_1": {
+        "name": "Corrente PV1 para armazenamento"
+      },
+      "storage_current_2": {
+        "name": "Corrente PV2 para armazenamento"
+      },
+      "storage_grid_amperage_input": {
+        "name": "Corrente de carga da rede"
+      },
+      "storage_grid_out_current": {
+        "name": "Corrente de saída da rede"
+      },
+      "storage_battery_voltage": {
+        "name": "Tensão da bateria"
+      },
+      "storage_load_percentage": {
+        "name": "Porcentagem de carga"
+      },
+      "tlx_energy_today": {
+        "name": "Geração do dia"
+      },
+      "tlx_energy_total": {
+        "name": "Geração total"
+      },
+      "tlx_energy_total_input_1": {
+        "name": "Energia total da entrada 1"
+      },
+      "tlx_energy_today_input_1": {
+        "name": "Energia hoje entrada 1"
+      },
+      "tlx_voltage_input_1": {
+        "name": "Tensão da entrada 1"
+      },
+      "tlx_amperage_input_1": {
+        "name": "Amperagem da entrada 1"
+      },
+      "tlx_wattage_input_1": {
+        "name": "Potência da entrada 1"
+      },
+      "tlx_energy_total_input_2": {
+        "name": "Energia total da entrada 2"
+      },
+      "tlx_energy_today_input_2": {
+        "name": "Energia hoje entrada 2"
+      },
+      "tlx_voltage_input_2": {
+        "name": "Tensão da entrada 2"
+      },
+      "tlx_amperage_input_2": {
+        "name": "Amperagem da entrada 2"
+      },
+      "tlx_wattage_input_2": {
+        "name": "Potência da entrada 2"
+      },
+      "tlx_energy_total_input_3": {
+        "name": "Energia total da entrada 3"
+      },
+      "tlx_energy_today_input_3": {
+        "name": "Energia hoje entrada 3"
+      },
+      "tlx_voltage_input_3": {
+        "name": "Tensão da entrada 3"
+      },
+      "tlx_amperage_input_3": {
+        "name": "Amperagem da entrada 3"
+      },
+      "tlx_wattage_input_3": {
+        "name": "Potência da entrada 3"
+      },
+      "tlx_energy_total_input_4": {
+        "name": "Energia total da entrada 4"
+      },
+      "tlx_energy_today_input_4": {
+        "name": "Energia hoje entrada 4"
+      },
+      "tlx_voltage_input_4": {
+        "name": "Tensão da entrada 4"
+      },
+      "tlx_amperage_input_4": {
+        "name": "Amperagem da entrada 4"
+      },
+      "tlx_wattage_input_4": {
+        "name": "Potência da entrada 4"
+      },
+      "tlx_solar_generation_total": {
+        "name": "Energia solar total"
+      },
+      "tlx_internal_wattage": {
+        "name": "Potência interna"
+      },
+      "tlx_reactive_voltage": {
+        "name": "Tensão reativa"
+      },
+      "tlx_frequency": {
+        "name": "Frequência AC"
+      },
+      "tlx_current_wattage": {
+        "name": "Potência de saída"
+      },
+      "tlx_temperature_1": {
+        "name": "Temperatura 1"
+      },
+      "tlx_temperature_2": {
+        "name": "Temperatura 2"
+      },
+      "tlx_temperature_3": {
+        "name": "Temperatura 3"
+      },
+      "tlx_temperature_4": {
+        "name": "Temperatura 4"
+      },
+      "tlx_temperature_5": {
+        "name": "Temperatura 5"
+      },
+      "tlx_all_batteries_discharge_today": {
+        "name": "Todas as baterias descarregadas hoje"
+      },
+      "tlx_all_batteries_discharge_total": {
+        "name": "Total de todas as baterias descarregadas"
+      },
+      "tlx_battery_1_discharge_w": {
+        "name": "Bateria 1 descarregando W"
+      },
+      "tlx_battery_1_discharge_total": {
+        "name": "Total de bateria 1 descarregada"
+      },
+      "tlx_battery_2_discharge_w": {
+        "name": "Bateria 2 descarregando W"
+      },
+      "tlx_battery_2_discharge_total": {
+        "name": "Total de bateria 2 descarregada"
+      },
+      "tlx_all_batteries_charge_today": {
+        "name": "Todas as baterias carregadas hoje"
+      },
+      "tlx_all_batteries_charge_total": {
+        "name": "Total de todas as baterias carregadas"
+      },
+      "tlx_battery_1_charge_w": {
+        "name": "Bateria 1 carregando W"
+      },
+      "tlx_battery_1_charge_total": {
+        "name": "Total de bateria 1 carregada"
+      },
+      "tlx_battery_2_charge_w": {
+        "name": "Bateria 2 carregando W"
+      },
+      "tlx_battery_2_charge_total": {
+        "name": "Total de bateria 2 carregada"
+      },
+      "tlx_export_to_grid_today": {
+        "name": "Exportação para a rede hoje"
+      },
+      "tlx_export_to_grid_total": {
+        "name": "Total de exportação para a rede"
+      },
+      "tlx_load_consumption_today": {
+        "name": "Consumo de carga hoje"
+      },
+      "mix_load_consumption_total": {
+        "name": "Consumo total de carga"
+      },
+      "tlx_statement_of_charge": {
+        "name": "Declaração de carga (SoC)"
+      },
+      "total_money_today": {
+        "name": "Economia hoje"
+      },
+      "total_money_total": {
+        "name": "Economia total"
+      },
+      "total_energy_today": {
+        "name": "Geração do dia"
+      },
+      "total_output_power": {
+        "name": "Potência de saída"
+      },
+      "total_energy_output": {
+        "name": "Geração total"
+      },
+      "total_maximum_output": {
+        "name": "Potência máxima"
+      }
+    }
+  }
+}
