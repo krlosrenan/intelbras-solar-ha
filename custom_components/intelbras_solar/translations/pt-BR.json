@@ -21,7 +21,7 @@
           "username": "Usuário",
           "url": "URL"
         },
-        "title": "Insira suas informações do Growatt"
+        "title": "Insira suas informações da Intelbras ou Growatt"
       }
     }
   },
@@ -287,10 +287,10 @@
         "name": "Geração total"
       },
       "tlx_energy_total_input_1": {
-        "name": "Energia total da entrada 1"
+        "name": "Geração total da entrada 1"
       },
       "tlx_energy_today_input_1": {
-        "name": "Energia hoje entrada 1"
+        "name": "Geração do dia (E. 1)"
       },
       "tlx_voltage_input_1": {
         "name": "Tensão da entrada 1"
@@ -302,10 +302,10 @@
         "name": "Potência da entrada 1"
       },
       "tlx_energy_total_input_2": {
-        "name": "Energia total da entrada 2"
+        "name": "Geração total da entrada 2"
       },
       "tlx_energy_today_input_2": {
-        "name": "Energia hoje entrada 2"
+        "name": "Geração do dia (E. 2)"
       },
       "tlx_voltage_input_2": {
         "name": "Tensão da entrada 2"
@@ -317,10 +317,10 @@
         "name": "Potência da entrada 2"
       },
       "tlx_energy_total_input_3": {
-        "name": "Energia total da entrada 3"
+        "name": "Geração total da entrada 3"
       },
       "tlx_energy_today_input_3": {
-        "name": "Energia hoje entrada 3"
+        "name": "Geração do dia (E. 3)"
       },
       "tlx_voltage_input_3": {
         "name": "Tensão da entrada 3"
@@ -332,10 +332,10 @@
         "name": "Potência da entrada 3"
       },
       "tlx_energy_total_input_4": {
-        "name": "Energia total da entrada 4"
+        "name": "Geração total da entrada 4"
       },
       "tlx_energy_today_input_4": {
-        "name": "Energia hoje entrada 4"
+        "name": "Geração do dia (E. 4)"
       },
       "tlx_voltage_input_4": {
         "name": "Tensão da entrada 4"
