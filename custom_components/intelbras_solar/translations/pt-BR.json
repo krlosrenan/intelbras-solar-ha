@@ -25,7 +25,7 @@
       }
     }
   },
-  "title": "Growatt Server",
+  "title": "Intelbras Solar (Growatt)",
   "entity": {
     "sensor": {
       "inverter_energy_today": {
